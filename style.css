@@ -1,3 +1,60 @@
-h1 {
-  color: blue;
+header {
+  background-color: whitesmoke;
+  height: 80px;
+}
+
+.main {
+  height: 650px;
+  background-color: grey;
+  background-image: url("images/mac2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 90px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.main h1.my-name {
+  padding-top: 50px;
+}
+
+.main h1.portfolio {
+  padding-top: 300px;
+}
+.flex-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .list {
+  font-size: 25px;
+  font-family: 'Vollkorn', serif;
+}
+
+header .list:hover {
+  color: #660000;
+  cursor: pointer;
+}
+
+.profile {
+  height: 600px;
+}
+
+.skill {
+  height: 600px;
+  background-color: whitesmoke;
+}
+
+.works {
+  height: 600px;
+}
+
+.contact {
+  height: 600px;
+  background-color: whitesmoke;
 }
