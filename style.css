@@ -153,3 +153,24 @@ header {
   border: solid 1px black;
   margin-bottom: 10px;
 }
+
+.contact {
+  text-align: center;
+}
+
+.contact img {
+  border-radius: 50%;
+}
+
+.twitter {
+  color: rgba(29,161,242,1.00);
+  margin-right: 80px;
+}
+
+.mail {
+  color: brown;
+}
+
+.contact p {
+  margin-top: 20px;
+}
