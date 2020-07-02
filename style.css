@@ -1,6 +1,23 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+image {
+  max-width: 100%;
+}
+
 header {
   background-color: whitesmoke;
   height: 80px;
+}
+
+.content h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  font-family: 'Vollkorn', serif;
 }
 
 .main {
@@ -49,12 +66,12 @@ header {
 }
 
 .skill {
-  height: 600px;
+  height: 1400px;
   background-color: whitesmoke;
 }
 
 .works {
-  height: 600px;
+  height: 1200px;
 }
 
 .contact {
@@ -68,4 +85,71 @@ header {
   bottom: 20px;
   color: black;
   opacity: 0.6;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: center;
+}
+
+.left-content {
+  width: 45%;
+  text-align: justify;
+  font-size: large;
+}
+
+.left-content h3, .right-content h3 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.left-content p, .right-content p {
+  line-height: 1.7;
+}
+
+.right-content p {
+  padding-left: 180px;
+}
+
+.right-content {
+  width: 45%;
+  font-size: larger;
+}
+
+.skill .skill-index {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.skill-index h3{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.skill-index h3 span {
+  border-bottom: 3px solid #660000;
+}
+
+.skill-index p {
+  font-size: large;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.works-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 500px 500px;
+}
+
+.works-item {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 15px;
+}
+
+.works-item img {
+  border: solid 1px black;
+  margin-bottom: 10px;
 }
