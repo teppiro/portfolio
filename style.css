@@ -184,10 +184,18 @@ header {
   }
 
   .main {
-    background-image: url("images/mobile2.png");
+    background-image: url("images/mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+  }
+
+  .main h1 {
+    font-size: 3rem;
+  }
+
+  .main h1.portfolio {
+    padding-top: 60px;
   }
 
   .flex-content {
