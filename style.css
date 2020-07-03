@@ -211,10 +211,15 @@ header {
 
   .works-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 500px;
+    grid-template-rows: 550px 500px 450px 500px;
   }
 
   .contact p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .skill .skill-index {
     width: 90%;
     margin: 0 auto;
   }
