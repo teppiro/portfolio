@@ -146,7 +146,7 @@ header {
 .works-item {
   background-color: whitesmoke;
   text-align: center;
-  padding: 15px;
+  padding-top: 15px;
 }
 
 .works-item img {
@@ -178,6 +178,7 @@ header {
 
 /* モバイル */
 @media (max-width: 600px) {
+
   .flex-list {
     flex-direction: column;
   }
