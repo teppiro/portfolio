@@ -10,7 +10,7 @@ image {
 
 header {
   background-color: whitesmoke;
-  height: 80px;
+  padding: 20px;
 }
 
 .content h2 {
@@ -21,10 +21,10 @@ header {
 }
 
 .main {
-  height: 650px;
   background-image: url("images/mac2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 60px;
 }
 
 .main h1 {
@@ -62,20 +62,20 @@ header {
 }
 
 .profile {
-  height: 600px;
+  padding-bottom: 60px;
 }
 
 .skill {
-  height: 1400px;
+  padding-bottom: 60px;
   background-color: whitesmoke;
 }
 
 .works {
-  height: 1200px;
+  padding-bottom: 60px;
 }
 
 .contact {
-  height: 600px;
+  padding-bottom: 60px;
   background-color: whitesmoke;
 }
 
@@ -173,4 +173,48 @@ header {
 
 .contact p {
   margin-top: 20px;
+}
+
+
+/* モバイル */
+@media (max-width: 600px) {
+  .flex-list {
+    flex-direction: column;
+  }
+
+  .main {
+    background-image: url("images/mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .flex-content {
+    flex-direction: column;
+  }
+  
+  .right-content,
+  .left-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .right-content {
+    margin-top: 20px;
+  }
+
+  .right-content p {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .works-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px;
+  }
+
+  .contact p {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
