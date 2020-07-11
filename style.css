@@ -154,6 +154,15 @@ header {
   margin-bottom: 10px;
 }
 
+a.source-code {
+  color: #660000;
+}
+
+a.source-code:hover {
+  color: #660000;
+  text-decoration: none;
+}
+
 .contact {
   text-align: center;
 }
